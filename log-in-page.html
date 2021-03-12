@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Garden Smart</title>
+
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel='icon' href='images/logo.PNG' type='image/x-icon'/>
+
+</head>
+<form action="action_page.php">
+
+    <div class="container" style="font-family: -apple-system,sans-serif">
+        <h1>Log in</h1>
+
+        <p><b>Email</b></p>
+        <input class="logIn" type="text" id="email" placeholder="Enter Email" name="email" required>
+
+        <p><b>Password</b></p>
+        <input class="logIn" type="password" id="password" placeholder="Enter Password" name="psw" required>
+
+        <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+        </label>
+
+        <p></p>
+        <p></p>
+
+        <div class="clearfix">
+            <button type="button" class="cancel" onclick="moveToLogInPage()">Cancel</button>
+            <button type="button" id='log-in-button' name="log-in-button" onclick="sendData()" class="signupbtn">Log in
+            </button>
+        </div>
+    </div>
+    <script src="log-in-js.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</form>
+</html>

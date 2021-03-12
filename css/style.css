@@ -1,0 +1,36 @@
+
+body {
+    background-color: greenyellow;
+    color: greenyellow;
+    font-size: 1.1em;
+}
+
+h1 {
+    color: darkgreen;
+    background-color: greenyellow;
+}
+
+#intro {
+    font-size: 1.3em;
+    background-color: greenyellow;
+}
+
+form {
+    background-color: greenyellow;
+}
+
+input {
+    background-color: white;
+}
+
+.colorful {
+    color: orange;
+}
+
+div {
+    background-color: greenyellow;
+}
+
+html {
+    background-color: greenyellow;
+}
